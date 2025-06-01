@@ -22,10 +22,10 @@ static BASE_HEADERS: Lazy<HeaderMap> = Lazy::new(|| {
     headers.insert(HeaderName::from_static("sec-fetch-mode"), HeaderValue::from_static("cors"));
     headers.insert(HeaderName::from_static("sec-fetch-site"), HeaderValue::from_static("same-origin"));
     headers.insert(HeaderName::from_static("sec-gpc"), HeaderValue::from_static("1"));
-    headers.insert(USER_AGENT, HeaderValue::from_static("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"));
-    headers.insert(HeaderName::from_static("sec-ch-ua"), HeaderValue::from_static("\"Brave\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""));
+    headers.insert(USER_AGENT, HeaderValue::from_static("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"));
+    headers.insert(HeaderName::from_static("sec-ch-ua"), HeaderValue::from_static("\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""));
     headers.insert(HeaderName::from_static("sec-ch-ua-mobile"), HeaderValue::from_static("?0"));
-    headers.insert(HeaderName::from_static("sec-ch-ua-platform"), HeaderValue::from_static("\"Linux\""));
+    headers.insert(HeaderName::from_static("sec-ch-ua-platform"), HeaderValue::from_static("\"Windows\""));
     headers
 });
 
