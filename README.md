@@ -24,7 +24,7 @@ This is a command-line tool designed to solve a specific type of Proof-of-Work (
 To get a local copy of this project, clone it from GitHub:
 
 ```bash
-git clone https://github.com/pixelmelt/kiwifarms-captchabuster.git
+git clone https://github.com/pixelmelt/kiwifarms-captchabuster
 cd kiwifarms-captchabuster
 ```
 
